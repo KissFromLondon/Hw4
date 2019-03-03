@@ -29,6 +29,7 @@ body {
 /*----------header-----------*/
 header {
   margin-top: 48px;
+  margin-bottom: 110px;
 }
 
 img {
@@ -36,22 +37,28 @@ img {
   width: 100%;
 }
 
+.logo {
+    float: left;
+}
 .site-logo {
   display: inline-block;
   margin-left: 30px;
+}
+
+.page-nav{
+    float: right;
+    margin-top: 5px; /* по примеру из видео попыталась выровнять меню с лого */
 }
 
 .list {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  width: 505px;
-  float: right;
-  margin-bottom: 110px;
 }
 
 .list-item {
   list-style: none;
+  float: left;
 }
 
 .list-link {
@@ -61,7 +68,6 @@ img {
   text-transform: uppercase;
   padding-right: 15px;
   padding-left: 15px;
-  float: left;
 }
 
 /* .list-item .list-link:last-child{
@@ -117,6 +123,10 @@ img {
   background: #7fd9c7;
 }
 
+.card-img {
+    overflow: hidden;
+    height: 282px;
+}
 .card-text {
   font-size: 18px;
   color: rgb(255, 255, 255);
@@ -155,7 +165,7 @@ img {
 }
 
 .news-text {
-margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .news-name {
@@ -182,12 +192,12 @@ margin-bottom: 18px;
 }
 
 .button {
-    width: 160px;
-    height: 51px;
-    border-radius: 4px;
-    background-color: #4ec6ab;
-    color: #f3fbf9;
-    font-size: 16px;
-    margin-bottom: 80px;
-    cursor: pointer;
+  width: 160px;
+  height: 51px;
+  border-radius: 4px;
+  background-color: #4ec6ab;
+  color: #f3fbf9;
+  font-size: 16px;
+  margin-bottom: 80px;
+  cursor: pointer;
 }
